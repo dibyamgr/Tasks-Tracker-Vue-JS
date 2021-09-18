@@ -1,8 +1,7 @@
 <template>
     <header>
         <h1>{{ title }}</h1>
-        <Button @click="onClick()" text="Create an Account" color="green" />
-        <Button text="Create an Account" color="red" />
+        <Button @click="onClick()" text="Add task" color="green" />
     </header>
 </template>
 
@@ -28,5 +27,7 @@ export default {
 <style scoped>
     header{
         display: flex;
+        align-content: center;
+        justify-content: space-between;
     }
 </style>
